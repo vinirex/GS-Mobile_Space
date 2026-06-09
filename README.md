@@ -8,13 +8,9 @@ Aplicação mobile moderna desenvolvida em **React Native (Expo SDK 55) + TypeSc
 
 | Nome do Integrante | RM |
 | :--- | :--- |
-| Integrante 1 | RM 12345 |
-| Integrante 2 | RM 12346 |
-| Integrante 3 | RM 12347 |
-| Integrante 4 | RM 12348 |
-| Integrante 5 | RM 12349 |
-
-*Nota: Substitua os placeholders acima com os nomes e RMs corretos do seu grupo antes de realizar a entrega.*
+| Vinicius Silva | RM553240 |
+| Victor Didoff | RM552965 |
+| Matheus Zottis | RM94119 |
 
 ---
 
