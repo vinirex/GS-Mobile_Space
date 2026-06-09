@@ -39,3 +39,9 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# AI / Agents
+.claude/
+CLAUDE.md
+AGENTS.md
+
