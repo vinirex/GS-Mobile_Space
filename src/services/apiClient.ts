@@ -1,9 +1,10 @@
 import axios, { AxiosInstance, InternalAxiosRequestConfig } from 'axios';
 import { storage } from '../storage/asyncStorage';
 import { UserSettings } from '../types';
+import { API_KEYS } from '../config/apiKeys';
 
-const DEFAULT_NASA_KEY = 'kygtdfmYhvlSr7ot0vNtPBcUb359AK6AZkgQbaxt';
-const DEFAULT_OPENWEATHER_KEY = '8bf5aff5b8b1bfad836156b152a19ba1';
+const DEFAULT_NASA_KEY = API_KEYS.NASA_API_KEY;
+const DEFAULT_OPENWEATHER_KEY = API_KEYS.OPENWEATHER_API_KEY;
 const SETTINGS_STORAGE_KEY = '@space_app_settings';
 
 // Create base Axios instances

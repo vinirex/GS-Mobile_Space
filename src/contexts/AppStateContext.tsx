@@ -1,6 +1,7 @@
 import React, { createContext, useState, useEffect, ReactNode } from 'react';
 import { storage } from '../storage/asyncStorage';
 import { ApodResponse, Asteroid, SavedLocation, UserSettings } from '../types';
+import { API_KEYS } from '../config/apiKeys';
 
 export interface AppStateContextType {
   favoritesApod: ApodResponse[];
@@ -34,8 +35,8 @@ const KEYS = {
 const DEFAULT_SETTINGS: UserSettings = {
   isDarkMode: true,
   useMetric: true,
-  nasaApiKey: 'kygtdfmYhvlSr7ot0vNtPBcUb359AK6AZkgQbaxt',
-  openWeatherApiKey: '8bf5aff5b8b1bfad836156b152a19ba1',
+  nasaApiKey: API_KEYS.NASA_API_KEY,
+  openWeatherApiKey: API_KEYS.OPENWEATHER_API_KEY,
 };
 
 export const AppStateProvider = ({ children }: { children: ReactNode }) => {
