@@ -1,7 +1,6 @@
 # 🚀 Space & Climate Tracker — Global Solution
 
 Aplicação mobile moderna desenvolvida em **React Native (Expo SDK 55) + TypeScript** que integra as APIs abertas da NASA e sensores climáticos da Open-Meteo. O objetivo do projeto é demonstrar o impacto prático e econômico de infraestruturas aeroespaciais no monitoramento climático e no desenvolvimento global sustentável.
-
 ---
 
 ## 👥 Grupo de Desenvolvimento
@@ -13,6 +12,17 @@ Aplicação mobile moderna desenvolvida em **React Native (Expo SDK 55) + TypeSc
 | Matheus Zottis | RM94119 |
 
 ---
+
+## 🎬 Demonstração do Projeto
+
+Confira o aplicativo em ação! Veja as principais funcionalidades e como o Space & Climate Tracker integra dados da NASA com monitoramento climático em tempo real.
+
+[![Space & Climate Tracker Demo](https://img.youtube.com/vi/JH3yLJxyTUY/0.jpg)](https://youtube.com/shorts/JH3yLJxyTUY)
+
+**Clique no vídeo acima ou [acesse aqui](https://youtube.com/shorts/JH3yLJxyTUY) para ver a demonstração completa.**
+
+---
+
 
 ## 🌍 Relação com a Indústria Espacial & ODS
 
@@ -40,7 +50,6 @@ O aplicativo materializa o uso prático de dados de sensoriamento remoto e logí
 *   **Ajustes Customizados (Configurações):**
     *   **Dark Mode Nativo:** Interface de alta fidelidade com tema escuro (Space Dark) e claro (Cosmic Light).
     *   **Configuração de Unidades:** Conversão dinâmica entre sistema métrico e imperial.
-    *   **NASA Token Manager:** Permite que o avaliador insira sua própria API Key, mas já vem configurado com uma chave funcional padrão (`kygtdfmYhvlSr7ot0vNtPBcUb359AK6AZkgQbaxt`).
 
 ---
 
