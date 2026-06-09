@@ -180,7 +180,7 @@ export const ListScreen: React.FC = () => {
           <View style={{ flex: 1 }}>
             <Text style={[styles.cardTitle, { color: theme.textPrimary }]}>{item.name}</Text>
             <Text style={[styles.cardSub, { color: theme.textMuted }]}>
-              ∅ {diameter} km | 🚀 {speed} km/h
+              ∅ {diameter} | 🚀 {speed}
             </Text>
           </View>
           <View style={[
