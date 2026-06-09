@@ -33,7 +33,7 @@ export const ListScreen: React.FC = () => {
   const [asteroids, setAsteroids] = useState<Asteroid[]>([]);
   const [filteredAsteroids, setFilteredAsteroids] = useState<Asteroid[]>([]);
   const [filterHazardousOnly, setFilterHazardousOnly] = useState<boolean>(false);
-  const [sortBy, setSortBy] = useState<'name' | 'size' | 'velocity'>('name');
+  const [sortBy, setSortBy] = useState<'name' | 'size' | 'velocity'>('name');    
 
   // Fetch Asteroids on mount
   useEffect(() => {
